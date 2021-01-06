@@ -1,7 +1,11 @@
 # Compiled class file
 *.class
+
+# IDE file
 Stack/.idea/
 Stack/Stack.iml
+Queue/.idea/
+Queue/Queue.iml
 
 # Log file
 *.log

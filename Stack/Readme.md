@@ -5,7 +5,10 @@
 ## Stack이란...
 스택이라는 것은 **LIFO(Last In First Out)** 이라는 입출력 형태를 가지는 자료구조이다</br>
 쉽게 말해서 제일 나중에 들어온 데이터가 제일 처음으로 나가는 것이다</br>
-[stack image](./img/stack.png)</br>
+<br>
+![stack image](./img/stack.png)
+</br>
+</br>
 개발자들이 흔히 보는 콜스택도 스택 구조로 이루어져 있는 것을 볼 수 있다
 
 ## Stack Interface
@@ -24,3 +27,6 @@ pop() - 스택에 데이터를 빼겠다 (제거 O)
 
 peek() - 스택에 제일 상단의 데이터를 확인 (제거는 X)
 ~~~
+
+### 완료
+2021.01.05

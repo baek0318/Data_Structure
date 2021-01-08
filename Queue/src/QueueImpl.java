@@ -58,4 +58,20 @@ public class QueueImpl implements Queue<Integer>{
         else
             return null;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder str = new StringBuilder();
+        str.append("F| ");
+        int i = front;
+        while(true){
+            str.append(store[i++]);
+            str.append(" ");
+            i %= store.length;
+            if(i == back)
+                break;
+        }
+        str.append("|B");
+        return str.toString();
+    }
 }

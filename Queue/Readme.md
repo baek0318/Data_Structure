@@ -4,13 +4,16 @@
 
 ## Queue란...
 LIFO 구조를 가진 스택이라는 다르게 **FIFO**(First In First Out) 이라는 구조를 가진다
-
 ![Queue Image](./img/Queue.png)
+Queue가 사용된 곳 중에서는 많이 알려진것은 버퍼이다
 
 ### Queue 내부 데이터 저장 방법
 Queue에서는 내부 데이터 저장 방법을 구현하는 여러가지 방법이 존재한다</br>
 실제 자바에서 제공하는 Queue는 LinkedList로도 구현할 수 있다</br>
-
+여기서는 List를 사용하지 않고 배열로만 구현을 하려고 한다 </br>
+배열로 구현하게 되면 두가지가 존재한다</br>
+1. 선형 큐 
+2. 원형 큐 -> 여기서는 이것으로 구현하겠다
 
 ## Queue Interface
 ~~~java

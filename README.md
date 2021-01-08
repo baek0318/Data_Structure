@@ -5,7 +5,8 @@
 
 - [**Stack**](/Stack)
 
-- **Queue**
+- [**Queue**](/Queue)
+
 - **Linked List**
 - **Tree**
 - **Priority Queue**

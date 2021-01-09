@@ -7,7 +7,7 @@
 
 - [**Queue**](/Queue)
 
-- **Linked List**
+- **List**
 - **Tree**
 - **Priority Queue**
 - **Graph**

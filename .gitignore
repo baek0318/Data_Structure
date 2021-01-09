@@ -2,11 +2,10 @@
 *.class
 
 # IDE file
-Stack/.idea/
+*.idea/
 Stack/Stack.iml
-Queue/.idea/
 Queue/Queue.iml
-
+Tree/Tree.iml
 # Log file
 *.log
 

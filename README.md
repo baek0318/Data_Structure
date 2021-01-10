@@ -8,7 +8,8 @@
 - [**Queue**](/Queue)
 
 - **List**
-- **Tree**
+
+- [**Tree**](/Tree)
 - **Priority Queue**
 - **Graph**
 - **Hashing**

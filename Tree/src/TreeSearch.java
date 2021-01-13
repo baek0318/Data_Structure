@@ -8,7 +8,12 @@ public interface TreeSearch {
      * @param node 최상위 root 노드이다
      */
     static void preOrder(TreeNode node) {
-        
+        if(node == null)
+            return;
+
+        System.out.println(node.getData());
+        preOrder(node.getLeft());
+        preOrder(node.getRight());
     }
 
     /**
@@ -16,7 +21,12 @@ public interface TreeSearch {
      * @param node 최상위 root 노드
      */
     static void inOrder(TreeNode node) {
+        if(node == null)
+            return;
 
+        inOrder(node.getLeft());
+        System.out.println(node.getData());
+        inOrder(node.getRight());
     }
 
     /**
@@ -24,7 +34,12 @@ public interface TreeSearch {
      * @param node 최상위 root 노드
      */
     static void postOrder(TreeNode node) {
+        if(node == null)
+            return;
 
+        postOrder(node.getLeft());
+        postOrder(node.getRight());
+        System.out.println(node.getData());
     }
 
 

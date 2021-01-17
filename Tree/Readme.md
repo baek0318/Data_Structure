@@ -14,16 +14,16 @@ List, Stack, Queue는 선형적인 구조를 가지고 있다</br>
 ![Tree img](./img/Tree.png)
 
 ### Tree 용어 정리
-- Node : 트리의 구성 요소
-- Edge : 노드와 노드 사이를 이어주는 선
-- Root Node : 트리나 서브 트리에서 최상위 노드
-- Leaf Node : 트리에서 최하단의 다른 노드를 가지지 않는 노드
-- Parent Node : A는 B의 Parent Node 이다
-- Children Node : B는 A의 Children Node 이다
-- Sibling Node : B와 C는 Sibling Node 이다
-- 차수 : 한 Node가 가지고 있는 자식의 개수
-- 높이 : 트리의 레벨 값중 제일 큰 값
-- 레벨 : 최상위 노드서 부터 최하단 노드까지 (1 ~ N)
+- `Node` : 트리의 구성 요소
+- `Edge` : 노드와 노드 사이를 이어주는 선
+- `Root Node` : 트리나 서브 트리에서 최상위 노드
+- `Leaf Node` : 트리에서 최하단의 다른 노드를 가지지 않는 노드
+- `Parent Node` : A는 B의 Parent Node 이다
+- `Children Node` : B는 A의 Children Node 이다
+- `Sibling Node` : B와 C는 Sibling Node 이다
+- `차수` : 한 Node가 가지고 있는 자식의 개수
+- `높이` : 트리의 레벨 값중 제일 큰 값
+- `레벨` : 최상위 노드서 부터 최하단 노드까지 (1 ~ N)
 
 ## Binary Tree 간단정리
 **이진트리 정의**
@@ -60,11 +60,13 @@ i 레벨에서의 노드의 개수는 2^i-1 이 된다</br>
 - 레벨 순회 : 레벨순서대로 형제 노드를 먼저 탐색한다
 
 ## Binary Tree Interface
-~~~
+```
 T data - 데이터를 담는 공간
 
 TreeNode left - 자신의 왼쪽에 연결될 노드의 주소값을 담는 공간
 
 TreeNode right - 자신의 오른쪽에 연결될 노드의 주소값을 담는 공간
-~~~
+```
 
+## 완료
+2021.01.17

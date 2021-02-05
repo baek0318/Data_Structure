@@ -1,3 +1,0 @@
-# Priority Queue
-
-## Priority Queue
